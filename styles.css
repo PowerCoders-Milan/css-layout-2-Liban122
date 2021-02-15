@@ -1,17 +1,30 @@
 /* USE CSS LAYOUTS HERE */
 
-.header {
+.container{
+    background-color: rgb(209, 168, 248);
+    display: flex;
+    flex-direction: column;
+    
+}
 
+.header {
+    text-align: center;
+    background-color: cornflowerblue;
 }
 
 .main {
-
+  background-color: coral;
+  margin-top: 20px;
 }
 
-.footer-grid {
-
+.footer {
+    width: 100%;
+    background-color: coral;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
 }
 
-.footer-flex {
-
-}
