@@ -1,30 +1,36 @@
 /* USE CSS LAYOUTS HERE */
 
 .container{
-    background-color: rgb(209, 168, 248);
-    display: flex;
-    flex-direction: column;
+   display: flex;
+  min-height: 100vh; 
+   width: 100%;
+   flex-direction: column;
+   text-align: center;   
     
 }
 
 .header {
-    text-align: center;
-    background-color: cornflowerblue;
+  height: 10vh;
+   background-color: darkred;
+
+  
+
+    
 }
 
 .main {
-  background-color: coral;
-  margin-top: 20px;
+    flex: auto;
+    background-color: darkslateblue;
+    
+   
+   
+  
 }
 
 .footer {
-    width: 100%;
-    background-color: coral;
-    bottom: 0px;
-    left: 0px;
-    position: fixed;
-    border: 3px solid black;
-    padding: 10px;
-    text-align: center;
+    height: 10vh;
+   background-color: deeppink;
+   
+  
 }
 
